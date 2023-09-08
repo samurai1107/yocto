@@ -1,0 +1,22 @@
+diff --git a/bbb-example.c b/bbb-example.c
+index 6f31000..d925dda 100644
+--- a/bbb-example.c
++++ b/bbb-example.c
+@@ -4,7 +4,7 @@
+ int main() {
+   #ifdef WELCOME
+     #if WELCOME == y
+-      printf("Welcome to Yocto Tutorial.\n");
++      printf("Welcome to Yocto Tutorial\n");
+     #endif
+   #endif
+ 
+@@ -20,5 +20,8 @@ int main() {
+     #endif
+   #endif
+ 
++  printf("Hurry!! Patched successfull\n");
++
++
+   return 0;
+ }
